@@ -1,0 +1,36 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/20.3.1_1/bin/node /Users/fujimotokosuke/.yarn/bin/yarn.js add libxml2-devel libxslt-devel
+
+PATH: 
+  /Users/fujimotokosuke/.rbenv/shims:/Users/fujimotokosuke/.rbenv/bin:~/.rbenv/shims:/usr/local/bin:/Users/fujimotokosuke/.pyenv/shims:/Users/fujimotokosuke/.yarn/bin:/Users/fujimotokosuke/.config/yarn/global/node_modules/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/local/sbin:/Library/Apple/usr/bin:/Users/fujimotokosuke/.fig/bin:/Users/fujimotokosuke/.local/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  20.3.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/libxml2-devel: Not found
+      at params.callback [as _callback] (/Users/fujimotokosuke/.yarn/lib/cli.js:66988:18)
+      at self.callback (/Users/fujimotokosuke/.yarn/lib/cli.js:140749:22)
+      at Request.emit (node:events:511:28)
+      at Request.<anonymous> (/Users/fujimotokosuke/.yarn/lib/cli.js:141721:10)
+      at Request.emit (node:events:511:28)
+      at IncomingMessage.<anonymous> (/Users/fujimotokosuke/.yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:625:28)
+      at IncomingMessage.emit (node:events:523:35)
+      at endReadableNT (node:internal/streams/readable:1367:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
