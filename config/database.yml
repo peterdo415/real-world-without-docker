@@ -15,7 +15,7 @@ test:
 
 production:
   production:
-  database: realworld_api_production
+  database: real-world-without-docker
   adapter: mysql2
   encoding: utf8mb4
   charset: utf8mb4
