@@ -2,8 +2,8 @@ default: &default
 
   adapter: mysql2
   database: apprentice
-  username: root
-  password: "password"
+  username: apprentice
+  password: password
   host: 127.0.0.1 
   encoding: utf8
 
