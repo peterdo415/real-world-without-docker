@@ -2,8 +2,8 @@ default: &default
 
   adapter: mysql2
   database: apprentice
-  username: apprentice
-  password: password
+  username: <%= Rails.application.credentials.db[:user_name] %>
+  password: <%= Rails.application.credentials.db[:password] %>
   host: <%= Rails.application.credentials.db[:endpoint] %>
   encoding: utf8
 
