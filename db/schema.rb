@@ -11,7 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2023_06_19_091556) do
-  create_table "articles", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "articles", charset: "utf8mb3", force: :cascade do |t|
     t.string "title", null: false
     t.string "description"
     t.text "body", null: false
@@ -22,7 +22,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_19_091556) do
     t.index ["title"], name: "index_articles_on_title", unique: true
   end
 
-  create_table "users", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "users", charset: "utf8mb3", force: :cascade do |t|
     t.string "username", null: false
     t.string "email", null: false
     t.string "password_digest", null: false
